@@ -8,4 +8,4 @@ config_dir=~/.config
      mkdir -p $config_dir
 fi
 
-cp -R ~/capenv/configs/* ~/.config/
+cp -R ~/dev-env/configs/* ~/.config/

@@ -3,7 +3,7 @@
 # exit if a command exits with a non-zero status
 set -e 
 
-INSTALL_DIR="$HOME/capenv/install"
+INSTALL_DIR="$HOME/dev-env/install"
 
 echo -e "\nstarting config installer\n"
 source $INSTALL_DIR/config/config.sh
