@@ -1,6 +1,3 @@
-# capenv
-repo containing bash scripts to setup my system the same way everytime
-
-# issues
-unable to cp config files as .config doesnt exist in a bare system
+# Dev-Env
+repo containing bash scripts and config files to setup my system the same way everytime
 
