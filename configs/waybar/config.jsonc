@@ -1,0 +1,25 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 10,
+
+    "include": "~/.config/waybar/modules/modules.jsonc",
+
+    "modules-left": [
+        "custom/arch",
+        "hyprland/workspaces"
+    ],
+
+    "modules-center": [
+        "hyprland/window"
+    ],
+
+    "modules-right": [
+        "tray",
+        "group/sys-mon",
+        "group/net-info",
+        "pulseaudio",
+        "clock",
+        "custom/power"
+    ],
+}

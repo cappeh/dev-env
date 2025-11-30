@@ -1,0 +1,98 @@
+@import "colors/current-theme.css";
+
+* {
+    font-family: "RobotoMono Nerd Font Mono";
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0;
+    border-radius: 8px;
+}
+
+window#waybar {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+window#waybar.empty #window {
+    background-color: transparent;
+}
+
+window > box {
+    /* background-color: @backgrounddark; */
+    padding: 0px 5px;
+    margin: 0px 50px 0px 50px;
+}
+
+#custom-arch {
+    margin: 3px 2px;
+    font-size: 14px;
+    color: @color12;
+    padding: 0px 5px 0px 10px;
+    border-radius: 10px;
+}
+
+#workspaces {
+    border-radius: 10px;
+    margin: 3px 2px;
+    padding: 0px 10px;
+}
+
+#workspaces button {
+    color: @color11;
+    padding: 0px 5px;
+}
+
+#workspaces button.active {
+    color: @color14;
+}
+
+#workspaces button.empty {
+    color: @textlight;
+}
+
+#workspaces button:hover {
+    color: @color7;
+    background-color: @background;
+}
+
+#tray {
+    margin: 3px 2px;
+    padding: 0px 10px;
+}
+
+#cpu,
+#memory,
+#disk,
+#pulseaudio,
+#workspaces,
+#clock,
+#sys-mon,
+#net-info, 
+#network-info,
+#window,
+#custom-arch,
+#custom-power {
+    background-color: @background;
+}
+
+#cpu, #memory, #disk, #sys-mon, #pulseaudio, #clock, #window {
+    color: @text;
+    border-radius: 10px;
+    padding: 0px 10px;
+    margin: 3px 2px;
+}
+
+#net-info, #network-info {
+    color: @text;
+    border-radius: 10px;
+    padding: 0px 7px 0px 15px;
+    margin: 3px 2px;
+}
+
+#custom-power {
+    color: @color5;
+    padding: 0px 10px;
+    margin: 3px 2px;
+}
+
