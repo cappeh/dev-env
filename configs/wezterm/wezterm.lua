@@ -15,7 +15,7 @@ config.window_frame = {
   font_size = 9,
 }
 
-config.warn_about_missing_glyphs = false
+-- config.warn_about_missing_glyphs = false
 
 
 return config
