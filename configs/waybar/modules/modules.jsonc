@@ -13,8 +13,8 @@
         "format": "{initialTitle}",
         "rewrite": {
             "Zen Browser": "[ Zen Browser ]",
-            "wezterm": "[ Wezterm ]"
-            //"(.*) — Mozilla Firefox": "🌎 $1"
+            "kitty": "[ Kitty ]",
+            "(.*) — Brave": "[ Brave ]",
         },
         "separate-outputs": true
     },
@@ -107,14 +107,14 @@
     },
 
     "clock": {
-        "format": "{:%OI:%OM %p}",
-        "format-alt": "{:%A, %b %e}",
-        "interval": 60
+        "format": "{:%OI:%OM %p %A, %b %e}",
+        "interval": 60,
+	"tooltip": false
     },
 
     "custom/power": {
 		"format": "",
-		"on-click": "wlogout -b 5",
+		"on-click": "wlogout",
 		"tooltip": false
 	},
 }
