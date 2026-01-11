@@ -1,8 +1,8 @@
 #!/bin/bash
 
 paru -S --noconfirm \
-    hyprland hyprshot hyprlock hypridle hyprland-guiutils hyprpolkitagent hyprlang hyprpaper \
-    rofi waybar swaync \
+    hyprland hyprlauncher hyprlock hypridle hyprpolkitagent hyprlang hyprpaper \
+    kitty waybar swaync \
     xdg-desktop-portal-hyprland
 
 

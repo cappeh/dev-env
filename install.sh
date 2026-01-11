@@ -13,7 +13,7 @@ source $INSTALL_DIR/config/amd.sh
 echo -e "\nstarting development installer\n"
 source $INSTALL_DIR/development/nvim.sh
 source $INSTALL_DIR/development/terminal.sh
-# source $INSTALL_DIR/development/firewall.sh
+source $INSTALL_DIR/development/firewall.sh
 
 echo -e "\ninstalling desktop environment\n"
 source $INSTALL_DIR/deskenv/bluetooth.sh
