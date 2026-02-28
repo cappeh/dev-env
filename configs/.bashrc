@@ -2,7 +2,9 @@
 [[ $- != *i* ]] && return
 
 # ALIAS
-alias ls='ls --color=auto'
+#alias ls='ls --color=auto'
+alias ls='eza -@lhbgum --icons=always'
+alias lsa='eza -@alhbgum --icons=always'
 alias grep='grep --color=auto'
 alias cat=bat
 alias ffn='nvim $(fzf --preview "bat --color=always {}")'
