@@ -1,5 +1,6 @@
 [font]
 size = 11.0
+normal = { family = "JetBrainsMono", style = "Regular" }
 
 [general]
 import = [
